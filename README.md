@@ -8,3 +8,7 @@ Snapshot tests are good for components not changing so often.
 Consider writing a snapshot test when you’re sure the component is stabilized.
 
 
+A functional test, or End to End test is a way of testing web applications from the user’s perspective.
+For the scope of this guide functional testing === end to end testing).
+
+Do not test the implementation. Test the component from the user’s perspective. In other words: test what the user should see.
