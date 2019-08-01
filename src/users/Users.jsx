@@ -17,13 +17,21 @@ export default class Users extends Component {
     return { data: response.data };
   }
 
-  async componentDidMount() {
+  /*async componentDidMount() {
     const response = await axios.get(
       "https://jsonplaceholder.typicode.com/users"
     );
     this.handleGet(response);
+  }*/
+
+  //retirei o async
+  componentDidMount() {
+     return axios.get("https://jsonplaceholder.typicode.com/users")
+        . then((response) => {
+            this.handleGet(response);
+    });    
   }
-  
+
   render() {
     return (
       <ul>
