@@ -12,3 +12,10 @@ A functional test, or End to End test is a way of testing web applications from 
 For the scope of this guide functional testing === end to end testing).
 
 Do not test the implementation. Test the component from the user’s perspective. In other words: test what the user should see.
+
+Mock test in development statment.
+Call the rights API`s in production statment.
+
+Cypress is a Javascript End to End testing framework.
+Cypress gives you a solid platform for writing and automating UI tests.
+
