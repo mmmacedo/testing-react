@@ -54,7 +54,7 @@ describe("Users component", () => {
         //removi o await
         instance.componentDidMount()
           .then(() => {
-            //console.log(instance.state) // << Imprime na tela os Usuarios carregador
+            console.log(instance.state) // << Imprime na tela os Usuarios carregador
 
             const root = component.root;
             const listOfLi = root.findAll(element => element.type === "li");
